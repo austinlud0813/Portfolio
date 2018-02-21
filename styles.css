@@ -1,4 +1,84 @@
-body {
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  #profilepic {
+    width:200px;
+    height:200px;
+    display: block;
+    margin: auto;
+  }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  #profilepic {
+    width:200px;
+    height:200px;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  #profilepic {
+    width:300px;
+    height:300px;
+    display: block;
+    margin: auto;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #profilepic {
+    width:300px;
+    height:300px;
+    display: block;
+    margin: auto;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  #profilepic {
+    width:300px;
+    height:300px;
+    display: block;
+    margin: auto;
+  }
+ }
+
+/*Header*/
+
+#coverimg {
+
+}
+
+
+
+#bio {
   background-color: black;
-  color:white;
+}
+
+.biotext {
+  font-size: 11pt;
+  color: white;
+  text-align: center;
+}
+
+
+#footer a {
+  color:
+}
+
+.copyright {
+  text-align: center;
+  font-size: 6pt;
 }
